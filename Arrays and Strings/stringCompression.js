@@ -20,3 +20,6 @@ function stringCompression(str) {
 }
 
 console.log(stringCompression('aabcccccaaa'))
+
+//O(n)
+//O(1)

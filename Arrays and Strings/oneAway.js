@@ -40,3 +40,6 @@ function oneAway(str, word) {
 
 }
 console.log(oneAway('pale', 'pal'))
+
+//time: O(n)
+//space: O(1)

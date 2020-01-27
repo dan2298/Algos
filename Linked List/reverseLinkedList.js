@@ -16,3 +16,6 @@ function reverseLinkedList(head) {
     }
     return p1
 }
+
+//time: O(n)
+//space: O(1)

@@ -19,3 +19,6 @@ var firstUniqChar = function (s) {
 };
 
 console.log(firstUniqChar('leetcode'))
+
+//time: O(n)
+//space: O(n)

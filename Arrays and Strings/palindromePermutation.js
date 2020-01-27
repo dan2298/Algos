@@ -24,3 +24,6 @@ function isPalindromePermutation(str) {
 }
 
 console.log(isPalindromePermutation('taco cat'))
+
+//time: O(n)
+//space: O(n)

@@ -46,3 +46,6 @@ function smallestDifference(arrayOne, arrayTwo) {
 }
 
 console.log(smallestDifference([-1, 5, 10, 20, 28, 3], [26, 134, 135, 15, 17]))
+
+//time: O(n logn)
+//space: O(1)

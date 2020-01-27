@@ -6,10 +6,8 @@ function longestSubstringWithoutDuplication(string) {
     let longest = [0, 1]
     let map = {}
     let current = [0, 1];
-    console.log(map)
     for (let i = 0; i < string.length; i++) {
         if (map[string[i]] !== undefined) {
-            console.log(string[i], ' ==== ', map[string[i]], Math.max(current[0], map[string[i]] + 1))
             current[0] = Math.max(current[0], map[string[i]] + 1)
         }
         current[1] = i + 1
@@ -17,7 +15,6 @@ function longestSubstringWithoutDuplication(string) {
             longest = [...current]
         }
         map[string[i]] = i;
-        console.log(current)
     }
     return string.substring(longest[0], longest[1])
 }
@@ -26,3 +23,6 @@ function longestSubstringWithoutDuplication(string) {
 // "mentisac"
 
 console.log(longestSubstringWithoutDuplication('abcdeabcdefc'))
+
+//time: O(n)
+//space: O(1)

@@ -28,3 +28,6 @@ function checkPermutation(str1, str2) {
 }
 
 console.log(checkPermutation('iceman', 'cinema'))
+
+//time: O(n + m)
+//space: O(n + m)

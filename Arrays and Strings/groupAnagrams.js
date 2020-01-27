@@ -33,5 +33,5 @@ function groupAnagrams(array) {
 }
 
 console.log(groupAnagrams(['zor', 'asd', 'dsa', 'wdq', 'das', 'roz']))
-//time: O(wnlog n)
+//time: O(w nlog n)
 //space: O(n)

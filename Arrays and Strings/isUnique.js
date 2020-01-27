@@ -12,4 +12,7 @@ function isUnique(string) {
 }
 
 console.log(isUnique('hello world!`'))
-console.log(isUnique('Algos fun')) 
+console.log(isUnique('Algos fun'))
+
+//time: O(n)
+//space: O(n)

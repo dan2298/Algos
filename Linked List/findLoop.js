@@ -33,3 +33,6 @@ function findLoop(head) {
 	// 	pointer.visited = true;
 	// 	pointer = pointer.next;
 // }
+
+//time: O(n)
+//space: O(1)

@@ -25,4 +25,5 @@ function rotateMaxtrix(matrix) {
 }
 
 console.log(rotateMaxtrix([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]))
-//O(n^2)
+//time: O(n^2)
+//space:O(1)
